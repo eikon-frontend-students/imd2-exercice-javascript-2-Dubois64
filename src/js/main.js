@@ -92,3 +92,26 @@ function toggleColor() {
 }
 
 box5.addEventListener("click", toggleColor);
+
+// box 6
+
+var box6 = document.querySelector(".trigger-all-self");
+var box1 = document.querySelector(".change-color");
+var box2 = document.querySelector(".toggle-color");
+
+function changeColor() {
+  box1.classList.add("is-blue");
+}
+box6.addEventListener("click", changeColor);
+
+function toggleColor() {
+  box2.classList.toggle("is-red");
+}
+
+box6.addEventListener("click", toggleColor);
+
+function changeColorGreen() {
+  box6.addEventListener("is-green");
+}
+
+box6.addEventListener("click", changeColorGreen);

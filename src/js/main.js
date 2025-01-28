@@ -65,7 +65,7 @@ function toggleColor() {
 
 box2.addEventListener("click", toggleColor);
 
-// box 3
+// box 3 et 4
 
 var box3 = document.querySelector(".trigger");
 var box4 = document.querySelector(".target");
@@ -75,3 +75,20 @@ function target() {
 }
 
 box3.addEventListener("click", target);
+
+// box 5
+
+var box5 = document.querySelector(".trigger-all");
+var box1 = document.querySelector(".change-color");
+var box2 = document.querySelector(".toggle-color");
+
+function changeColor() {
+  box1.classList.add("is-blue");
+}
+box5.addEventListener("click", changeColor);
+
+function toggleColor() {
+  box2.classList.toggle("is-red");
+}
+
+box5.addEventListener("click", toggleColor);

@@ -66,3 +66,12 @@ function toggleColor() {
 box2.addEventListener("click", toggleColor);
 
 // box 3
+
+var box3 = document.querySelector(".trigger");
+var box4 = document.querySelector(".target");
+
+function target() {
+  box4.classList.toggle("is-disapear");
+}
+
+box3.addEventListener("click", target);

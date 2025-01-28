@@ -58,7 +58,6 @@ box1.addEventListener("click", changeColor);
 // box 2
 
 var box2 = document.querySelector(".change-color");
-console.log;
 
 function ChangeColor() {
   box2.classList.toggle("is-red-orange");

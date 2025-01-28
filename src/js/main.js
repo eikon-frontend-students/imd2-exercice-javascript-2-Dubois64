@@ -57,10 +57,12 @@ box1.addEventListener("click", changeColor);
 
 // box 2
 
-var box2 = document.querySelector(".change-color");
+var box2 = document.querySelector(".toggle-color");
 
-function ChangeColor() {
-  box2.classList.toggle("is-red-orange");
+function toggleColor() {
+  box2.classList.toggle("is-red");
 }
 
-box2.addEventListener("click", changeColor);
+box2.addEventListener("click", toggleColor);
+
+// box 3

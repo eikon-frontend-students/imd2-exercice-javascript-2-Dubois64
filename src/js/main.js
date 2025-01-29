@@ -111,7 +111,7 @@ function toggleColor() {
 box6.addEventListener("click", toggleColor);
 
 function changeColorGreen() {
-  box6.addEventListener("is-green");
+  box6.classList.add("is-green");
 }
 
 box6.addEventListener("click", changeColorGreen);
